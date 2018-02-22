@@ -1,0 +1,3 @@
+rootProject.name = 'spring5-microservice'
+include 'ch03-01.boot.rest',
+        'ch03-02.boot.hateoas'
