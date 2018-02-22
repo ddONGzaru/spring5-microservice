@@ -3,4 +3,5 @@ include 'ch03-01.boot.rest',
         'ch03-02.boot.hateoas',
         'ch03-03.webflux',
         'ch03-04.boot.messaging',
-        'ch03-05.boot.security'
+        'ch03-05.boot.security',
+        'ch03-06.boot.actuator'

@@ -19,6 +19,8 @@
       <module name="ch03-04.boot.security_test" target="1.8" />
       <module name="ch03-05.boot.security_main" target="1.8" />
       <module name="ch03-05.boot.security_test" target="1.8" />
+      <module name="ch03-06.boot.actuator_main" target="1.8" />
+      <module name="ch03-06.boot.actuator_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
