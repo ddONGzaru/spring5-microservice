@@ -1,0 +1,36 @@
+
+/*
+	compile('org.springframework.boot:spring-boot-starter')
+	compile project(':project-submodule')
+	compile files('../libs/javax.jms.jar')
+	compile fileTree(dir: 'libs', include: '*.jar')
+*/
+
+dependencies {
+
+	/*
+    ------------------------------
+        compile
+    ------------------------------
+    */
+
+	// spring-boot
+	compile 'org.springframework.boot:spring-boot-starter-web:2.0.0.RC2'
+	compile 'org.springframework.boot:spring-boot-starter-security:2.0.0.RC2'
+	compile 'org.springframework.boot:spring-boot-properties-migrator:2.0.0.RC2'
+
+	compile 'org.springframework.security.oauth:spring-security-oauth2:2.2.1.RELEASE'
+	compile 'org.springframework.security:spring-security-crypto:4.2.4.RELEASE'
+
+
+	// geronimo-utils
+	compile 'io.geronimo:geronimo-utils:1.10.0.RELEASE'
+
+	/*
+    ------------------------------
+        testCompile
+    ------------------------------
+    */
+	testCompile 'org.springframework.boot:spring-boot-starter-test:2.0.0.RC2'
+
+}
