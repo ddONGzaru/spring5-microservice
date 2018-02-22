@@ -18,11 +18,11 @@ import java.util.Arrays;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment = WebEnvironment.DEFINED_PORT)
+//@RunWith(SpringRunner.class)
+//@SpringBootTest(webEnvironment = WebEnvironment.DEFINED_PORT)
 public class AppBootSecurityTest {
 
-	@Test
+	//@Test
 	public void testSpringBootApp() throws JsonProcessingException, IOException {
 
 		RestTemplate restTemplate = new RestTemplate();
@@ -31,7 +31,7 @@ public class AppBootSecurityTest {
 		assertThat("Hello World!".equals(body.getMessage()));
 	}
 
-	@Test
+	//@Test
 	public void testOAuthService() {
 
 		ResourceOwnerPasswordResourceDetails resource = new ResourceOwnerPasswordResourceDetails();

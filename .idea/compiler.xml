@@ -9,16 +9,16 @@
       <module name="ch03-01.boot.rest_test" target="1.8" />
       <module name="ch03-02.boot.hateoas_main" target="1.8" />
       <module name="ch03-02.boot.hateoas_test" target="1.8" />
-      <module name="ch03-02.boot.messaging_main" target="1.8" />
-      <module name="ch03-02.boot.messaging_test" target="1.8" />
       <module name="ch03-03.webflux_main" target="1.8" />
       <module name="ch03-03.webflux_test" target="1.8" />
       <module name="ch03-04.boot.messaging_main" target="1.8" />
       <module name="ch03-04.boot.messaging_test" target="1.8" />
-      <module name="ch03-04.boot.security_main" target="1.8" />
-      <module name="ch03-04.boot.security_test" target="1.8" />
       <module name="ch03-05.boot.security_main" target="1.8" />
       <module name="ch03-05.boot.security_test" target="1.8" />
+      <module name="ch03-06.boot.actuator_main" target="1.8" />
+      <module name="ch03-06.boot.actuator_test" target="1.8" />
+      <module name="ch03-07.swagger_main" target="1.8" />
+      <module name="ch03-07.swagger_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
